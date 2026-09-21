@@ -3,7 +3,7 @@ import * as XLSX from 'xlsx';
 import backgroundUrl from '../pokemon_background.jpg';
 import './App.css';
 
-const ASSET = '/assets/pokemon/';
+const ASSET = `${import.meta.env.BASE_URL}assets/pokemon/`;
 const TYPES = {
   R: { label: 'Retenu', damage: 3, move: 'FLAME CHARGE', className: 'r' },
   NR: { label: 'Non Retenu', damage: 3, move: 'PSYBEAM', className: 'nr' },
