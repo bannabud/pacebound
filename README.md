@@ -5,7 +5,6 @@ Pacebound is a Vite and React task pacing tracker with a clockwork-citadel theme
 ## Project Structure
 
 - `src/` contains the active React application and styles.
-- `src/archive/` preserves the earlier single-file prototype uploaded with the project.
 - `public/assets/pokemon/` contains the uploaded sprite assets for static URL access.
 - `index.html` and `vite.config.js` contain the Vite entry configuration.
 
